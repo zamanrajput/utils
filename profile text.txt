@@ -1,0 +1,73 @@
+Hi There!
+Educationally!
+I'm a Student of Software Engineering At the University Of Engineering and Technology, Lahore, Punjab, Pakistan.
+Professionally! an android application developer for 2+ years,
+Working for two companies remotely, parallelly as a full-stack application developer for android.
+I did several projects for my clients whom I approached through social media and references etc.
+Some of the famous developed apps are uploaded on PlayStore and still maintained by me.
+Technically! 
+I'm a programmer, UI designer (Figma and Adobe XD), PHP Laravel learner, StackOverflow contributor, and also Officially Android Developer on googles developer's official site.
+
+about the gig
+
+
+
+
+Brief Intro.
+Hi There!
+Professionally! I'm android application developer since 2+ years.
+Educationally! I'm Student of Software Engineering At University Of Engineering and Technology, Lahore, Punjab, Pakistan.
+Technically! I'm StackOverFlow contributer and also Officially Android Developer on 'developers.google.com'
+
+Gig's Intro.
+I would like to develop your application based on android using java/kotlin (on your demand)
+using my past experience. I would not like to say "Hire me" but "try me".
+Come let's talk on your project :)
+
+Thanks for your valuable time
+Regards: Zaman Boota
+
+
+Like To Read More? let's read
+
+Native & Agile development
+Web-based Development
+Architectural Development
+Modular Development
+Bugs Free Coding
+PlayStore Submission
+100% Client Satisfaction
+Life Time Maintenance
+In time Delivery
+
+UI Features
+
+Modern UI
+Static & Dynamic UIs
+Boosted Performance
+Architectural Design 
+Animations & Sounds
+Responsive device-to-device Layout 
+Figma to Android App
+Adobe XD to Android App
+
+Back-End Features
+Clean & Understandable Free Code
+Background Threading
+Boosted Structural Coding
+Background Threading
+Latest Libraries Support
+Deprecation Free Code
+API version-to-version varying Code
+Targeted Version To Latest (android 12+)
+MVVM and Dagger Architecture for Long term Project
+Authorized Coding Libraries
+
+
+Services
+Rest APIs (JSON, XML)
+Data Parsing
+Offline Databases (SQL, ROOM)
+Online Database (FireStore, MySQL)
+Repositries
+Web-View Apps
