@@ -1,0 +1,99 @@
+    public abstract class DoubleClickListener implements View.OnClickListener {
+
+        private static final long DOUBLE_CLICK_TIME_DELTA = 300;//milliseconds
+
+        long lastClickTime = 0;
+
+        @Override
+        public void onClick(View v) {
+            long clickTime = System.currentTimeMillis();
+            if (clickTime - lastClickTime < DOUBLE_CLICK_TIME_DELTA) {
+                onDoubleClick(v);
+                lastClickTime = 0;
+            } else {
+                onSingleClick(v);
+            }
+            lastClickTime = clickTime;
+        }
+
+        public abstract void onSingleClick(View v);
+
+        public abstract void onDoubleClick(View v);
+    }
+
+
+
+
+
+
+
+
+ private fun fullScreenView(uri: String, type: String) {
+
+            FullScreenView.start(itemView.context as Activity,uri,type)
+
+
+        }
+
+
+
+
+
+
+
+itemView.fullScreenBtn.setOnClickListener {
+                                    fullScreenView(item.newsletterVideo, "video")
+                                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//screen tapsS
+
+private int mCounter = 0;
+    private final Handler mHandler = new Handler();
+
+    private final Runnable mResetCounter = new Runnable() {
+        @Override
+        public void run() {
+            mCounter = 0;
+        }
+    };
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        switch(event.getAction()) {
+            case MotionEvent.ACTION_UP:
+            case MotionEvent.ACTION_CANCEL:
+                if (mCounter == 0)
+                    mHandler.postDelayed(mResetCounter, 2000);
+
+                mCounter++;
+
+                if (mCounter == 4){
+                    mHandler.removeCallbacks(mResetCounter);
+                    mCounter = 0;
+                    Splash.super.onBackPressed();
+
+                }else if(mCounter>=2){
+                    Toast.makeText(this, "tap "+ (4-mCounter)+" times again to open screen", Toast.LENGTH_SHORT).show();
+                }
+
+                return false;
+
+            default :
+                return super.onTouchEvent(event);
+        }
+    }
